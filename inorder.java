@@ -23,7 +23,7 @@ public class inorder {
 		List<Integer> res = new LinkedList<Integer>();
 		
 		if (root == null)
-			return res;
+			return new LinkedList<Integer>();
 
 		Stack<TreeNode> st = new Stack<TreeNode>();
 		
